@@ -5,7 +5,7 @@ import Nucleus from "../images/Nucleus.jpg";
 import Akshara from "../images/Akshara.jpg";
 import Figma from '../images/Figma.png';
 import Todo from '../images/Todo.png'
-
+import Web from '../images/web.png'
 export const Bio = {
   name: "Shaik Mohammed Firoz",
   roles: ["FrontEnd Developer", "Manual Tester", "Programmer"],
@@ -461,19 +461,19 @@ export const projects = [
     github: "https://github.com/Shaik-Firoz9/ToDo",
     webapp: "https://shaik-feroz-todo.netlify.app/",
   },
-  // {
-  //   id: 6,
-  //   title: "Breaking Bad",
-  //   date: "Jun 2021",
-  //   description:
-  //     "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-  //   image:
-  //     "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-  //   tags: ["React Js", "API", "Axios", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Breaking-Bad",
-  //   webapp: "https://breaking-bad-webapp.netlify.app",
-  // },
+  {
+    id: 6,
+    title: "Educational Website",
+    date: "Jun 2021",
+    description:
+      "Creating a basic website for free web development courses with online videos and text resources ",
+    image:
+    Web,
+    tags: ["Html","Css"],
+    category: "web app",
+    github: "https://github.com/Shaik-Firoz9/Educational-Website",
+    webapp: "https://shaikferoz-educationalwebsite.netlify.app/",
+  },
   // {
   //   id: 7,
   //   title: "Quiz App",

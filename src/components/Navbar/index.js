@@ -20,16 +20,18 @@ import { useTheme } from "styled-components";
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme();
+  
   return (
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
           <a
+            href="/" // Added href for keyboard accessibility
             style={{
               display: "flex",
               alignItems: "center",
               color: "white",
-              marginBottom: "20;",
+              marginBottom: "20px",
               cursor: "pointer",
             }}
           >
@@ -37,11 +39,7 @@ const Navbar = () => {
           </a>
         </NavLogo>
         <MobileIcon>
-          <FaBars
-            onClick={() => {
-              setIsOpen(!isOpen);
-            }}
-          />
+          <FaBars onClick={() => setIsOpen(!isOpen)} />
         </MobileIcon>
         <NavItems>
           <NavLink href="#about">About</NavLink>
@@ -57,44 +55,19 @@ const Navbar = () => {
         </ButtonContainer>
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
-            <MobileLink
-              href="#about"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
+            <MobileLink href="#about" onClick={() => setIsOpen(!isOpen)}>
               About
             </MobileLink>
-            <MobileLink
-              href="#skills"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
+            <MobileLink href="#skills" onClick={() => setIsOpen(!isOpen)}>
               Skills
             </MobileLink>
-            <MobileLink
-              href="#experience"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
+            <MobileLink href="#experience" onClick={() => setIsOpen(!isOpen)}>
               Experience
             </MobileLink>
-            <MobileLink
-              href="#projects"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
+            <MobileLink href="#projects" onClick={() => setIsOpen(!isOpen)}>
               Projects
             </MobileLink>
-            <MobileLink
-              href="#education"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
+            <MobileLink href="#education" onClick={() => setIsOpen(!isOpen)}>
               Education
             </MobileLink>
             <GitHubButton

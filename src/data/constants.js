@@ -13,7 +13,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Shaik-Firoz9",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1iMlp6DON1eWmcCcPBI5SwGERijLwjQWq/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/shaik-mohammed-firoz-74bb81248/",
   twitter: "",
   insta: "",
@@ -458,8 +458,8 @@ export const projects = [
       Todo,
     tags: ["React Js", "Local Storage"],
     category: "web app",
-    github: "https://github.com/Shaik-Firoz9/To-Do-list",
-    webapp: "https://rishav-react-todo.netlify.app/",
+    github: "https://github.com/Shaik-Firoz9/ToDo",
+    webapp: "https://shaik-feroz-todo.netlify.app/",
   },
   // {
   //   id: 6,
